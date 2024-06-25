@@ -12,7 +12,7 @@ app.use((err, req, res, next) => {
 
 const youtubeClient = google.youtube({
     version: 'v3',
-    auth: 'AIzaSyBdi2_BUyGFX0U2WDC2njYOLikICUdzSZg'
+    //auth comes here
 })
 
 app.post('/analyze-youtube', async (res, req) => {
