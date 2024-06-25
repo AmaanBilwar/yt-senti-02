@@ -10,7 +10,7 @@ import About from './pages/About.jsx'
 const router = createBrowserRouter([
   {
     path:"/yt-senti-02/",
-    element: <App />,
+    element: <Home/>,
     children: [
       {
         path:'/',

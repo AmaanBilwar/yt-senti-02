@@ -6,11 +6,12 @@ function App() {
 
   return (
     <>
-      
       <nav>
         <Link to="/yt-senti-02/">Home</Link>
         <Link to="/yt-senti-02/about">About</Link>
       </nav>
+
+      
       <Outlet />
     </>
   )
