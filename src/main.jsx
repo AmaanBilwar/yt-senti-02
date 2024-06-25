@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from './pages/Home.jsx'
@@ -13,15 +12,15 @@ const router = createBrowserRouter([
     element: <Home/>,
     children: [
       {
-        path:'/',
+        path:'/yt-senti-02/',
         element: <Home />
       },
       {
-        path:'/home',
+        path:'/yt-senti-02/home',
         element: <Home />
       },
       {
-        path:'/about',
+        path:'/yt-senti-02/about',
         element: <About />
       },
     ]

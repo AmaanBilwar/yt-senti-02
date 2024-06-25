@@ -1,5 +1,6 @@
 {
   "name": "yt-senti-02",
+  "proxy": "http://localhost:4000",
   "homepage": "/https://amaanbilwar.github.io/yt-senti-02/",
   "private": true,
   "version": "0.0.0",
@@ -12,6 +13,7 @@
   },
   "dependencies": {
     "react": "^18.3.1",
+    "react-axios": "^2.0.6",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.24.0"
   },
