@@ -1,1 +1,0 @@
-auth: 'AIzaSyBdi2_BUyGFX0U2WDC2njYOLikICUdzSZg'
