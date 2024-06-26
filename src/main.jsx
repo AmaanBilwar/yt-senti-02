@@ -23,6 +23,7 @@ const router = createBrowserRouter([
         path:'/yt-senti-02/about',
         element: <About />
       },
+      
     ]
   }
 ])

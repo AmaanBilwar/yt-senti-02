@@ -9,8 +9,11 @@ function App() {
       <nav>
         <Link to="/yt-senti-02/home">Home</Link>
         <Link to="/yt-senti-02/about">About</Link>
+        
       </nav>
-      
+
+
+
       <Outlet />
     </>
   )
